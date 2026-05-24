@@ -8,7 +8,7 @@ It highlights my journey through full-stack development, modern UI/UX design pat
 
 ## 🛠️ Tech Stack Overview
 * **Languages:** Kotlin, C#, SQL, JavaScript
-* **Frameworks & Platforms:** ASP.NET Core, Android SDK, Firebase, Visual Studio 2022, Visual Studio Code, Netbeans and etc
+* **Frameworks & Platforms:** ASP.NET Core, Android SDK, Firebase, Visual Studio 2022, Visual Studio Code, Netbeans And More
 * **Database Management:** SQL Server, Firebase Realtime Database
 
 ---
