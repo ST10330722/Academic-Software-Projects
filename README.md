@@ -22,7 +22,7 @@ It highlights my journey through full-stack development, modern UI/UX design pat
 
 ### 📱 Mobile Applications
 
-* **📂 [View Project Folder](./mobile-applications)**
+* **📂 [View Project Folder](./windows&mobile-applications)**
 
 ---
 
