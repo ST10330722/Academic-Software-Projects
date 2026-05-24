@@ -16,7 +16,7 @@ It highlights my journey through full-stack development, modern UI/UX design pat
 
 ### 🌐 Web Applications
 
-**📂 [View Project Folder](./web-applications)**
+**📂 [View Project Folder](./vs-web-applications)**
 
 ---
 
