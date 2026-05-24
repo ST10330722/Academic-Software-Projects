@@ -1,0 +1,15 @@
+# Dependency folders
+node_modules/
+vendor/
+packages/
+
+# Build and output directories
+bin/
+obj/
+dist/
+build/
+out/
+
+# Log files
+*.log
+logs/
