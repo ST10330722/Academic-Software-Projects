@@ -12,6 +12,19 @@ It highlights my journey through full-stack development, modern UI/UX design pat
 * **Database Management:** SQL Server, Firebase Realtime Database
 
 ---
+## 📁 Featured Projects
+
+### 🌐 Web Applications
+
+**📂 [View Project Folder](./web-applications)**
+
+---
+
+### 📱 Mobile Applications
+
+* **📂 [View Project Folder](./mobile-applications)**
+
+---
 
 ## ⚙️ How to Explore This Repository
 1. Navigate to the respective **`web-applications/`** or **`mobile-applications/`** directories to view the source code.
