@@ -1,2 +1,20 @@
-# Academic-Software-Projects
-A curated collection of web and mobile applications developed during my BCIS in Application Development at Varsity College. Features both standalone individual projects and collaborative group applications.
+# Varsity College - Application Development Portfolio
+
+Welcome to my software development showcase! This repository contains a curated selection of web and mobile applications built during my Bachelor of Computer and Information Sciences (BCIS) in Application Development at Varsity College. 
+
+It highlights my journey through full-stack development, modern UI/UX design patterns, and agile team collaboration.
+
+---
+
+## 🛠️ Tech Stack Overview
+* **Languages:** Kotlin, C#, SQL, JavaScript
+* **Frameworks & Platforms:** ASP.NET Core, Android SDK, Firebase, Visual Studio 2022, Visual Studio Code, Netbeans and etc
+* **Database Management:** SQL Server, Firebase Realtime Database
+
+---
+
+## ⚙️ How to Explore This Repository
+1. Navigate to the respective **`web-applications/`** or **`mobile-applications/`** directories to view the source code.
+2. Each project subfolder contains its own dedicated `README.md` details regarding local setup, architecture diagrams, and application screenshots.
+
+---
