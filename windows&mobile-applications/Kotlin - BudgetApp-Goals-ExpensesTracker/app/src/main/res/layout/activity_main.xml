@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="159dp" />
+
+        <EditText
+            android:id="@+id/minGoalInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Min Goal"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:id="@+id/maxGoalInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Max Goal"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"/>
+
+
+        <Button
+            android:id="@+id/saveBudgetBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Budget"
+            android:layout_marginTop="16dp"/>
+
+
+        <Button
+            android:id="@+id/viewExpensesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Expenses"
+            android:layout_marginTop="8dp"/>
+
+
+        <Button
+            android:id="@+id/viewCategorySummaryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Category Summary"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

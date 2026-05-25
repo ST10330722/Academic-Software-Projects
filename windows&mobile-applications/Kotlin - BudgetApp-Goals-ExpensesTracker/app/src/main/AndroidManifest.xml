@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vcmsa.projects.poepart2">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.PoePart2"
+        android:icon="@mipmap/ic_launcher">
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BudgetGoalsActivity" />
+
+        <activity
+            android:name=".Register"
+            android:exported="false"/>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AddExpenseActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".CreateCategoryActivity"
+            android:exported="false"/>
+        <activity
+            android:name="vcmsa.projects.poepart2.ExpenseListActivity"
+            android:exported="false"/>
+        <activity
+            android:name="vcmsa.projects.poepart2.CategorySummaryActivity"
+            android:exported="false"/>
+        <activity
+            android:name="vcmsa.projects.poepart2.RecurringExpenseActivity"
+            android:exported="false" />
+        <activity android:name="vcmsa.projects.poepart2.TipsListActivity" />
+        <activity android:name="vcmsa.projects.poepart2.TipDetailActivity" />
+        <activity android:name=".CategoryGoalSummaryActivity"/>
+
+    </application>
+</manifest>

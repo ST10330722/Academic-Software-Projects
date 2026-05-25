@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Added to define Theme.PoePart2 to resolve missing style -->
+    <style name="Theme.PoePart2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here if needed -->
+    </style>
+</resources>

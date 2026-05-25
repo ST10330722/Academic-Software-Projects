@@ -1,0 +1,23 @@
+﻿@model AgriEnergyConnect.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h2>Product Details</h2>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+        <dt class="col-sm-2">Category</dt>
+        <dd class="col-sm-10">@Model.Category</dd>
+        <dt class="col-sm-2">Production Date</dt>
+        <dd class="col-sm-10">@Model.ProductionDate.ToShortDateString()</dd>
+        <dt class="col-sm-2">Farmer</dt>
+        <dd class="col-sm-10">@Model.Farmer?.Name</dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

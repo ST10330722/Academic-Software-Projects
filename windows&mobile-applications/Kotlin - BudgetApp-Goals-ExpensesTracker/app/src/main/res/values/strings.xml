@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BudgetApp</string>
+
+
+    <string name="login_prompt">Please log in</string>
+    <string name="signup_text">Don’t have an account? Sign up</string>
+    <string name="register_success">Registration successful!</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+
+
+    <string name="select_category">Select Category</string>
+    <string name="hint_description">Description</string>
+    <string name="photo_preview">Photo Preview</string>
+    <string name="save_expense">Save Expense</string>
+
+
+    <string name="min_goal_hint">Min Goal</string>
+    <string name="max_goal_hint">Max Goal</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="view_expenses">View Expenses</string>
+    <string name="view_category_summary">View Category Summary</string>
+    <string name="budget_saved">Saved: Min=%1$.2f Max=%2$.2f</string>
+    <string name="budget_invalid">Please enter valid numbers</string>
+
+
+    <string name="create_category">Create Category</string>
+    <string name="expense_list">Expenses</string>
+    <string name="category_summary">Category Summary</string>
+
+    <string name="hint_start_date">Start Date (YYYY-MM-DD)</string>
+    <string name="hint_end_date">End Date (YYYY-MM-DD)</string>
+    <string name="calculate_totals">Calculate Totals</string>
+
+
+    <string name="select_photo">Select Photo</string>
+
+    <string name="load_expenses">Load Expenses</string>
+    <!-- res/values/strings.xml -->
+    <string name="hint_amount">Amount (e.g. 120.00)</string>
+
+    <string name="create_category_error_name_required">Name is required</string>
+    <string name="create_category_success">Category created</string>
+</resources>

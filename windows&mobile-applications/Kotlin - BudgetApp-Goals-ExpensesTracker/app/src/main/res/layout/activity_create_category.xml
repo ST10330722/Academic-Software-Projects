@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="173dp" />
+
+        <EditText
+            android:id="@+id/categoryNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:layout_marginTop="32dp" />
+
+        <EditText
+            android:id="@+id/categoryDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category Description (optional)"
+            android:inputType="text"
+            android:padding="16dp"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/saveCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"
+            android:text="Save Category"
+            android:padding="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>
