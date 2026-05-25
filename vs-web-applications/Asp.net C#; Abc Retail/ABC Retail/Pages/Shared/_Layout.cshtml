@@ -1,0 +1,143 @@
+﻿@{
+    Layout = null; // Ensures this file is not used as a layout by itself.
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ABC Retail</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/layout.css" /> <!-- Link to your layout.css file -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9; /* Very light green background */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #388e3c; /* Dark green background */
+            color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+            }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #66bb6a; /* Medium green background */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px 20px;
+                font-size: 1.1em;
+                margin: 0 10px;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+                nav a:hover {
+                    background-color: #388e3c; /* Darker green on hover */
+                }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #388e3c; /* Dark green color for headings */
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-control,
+        .form-control-file,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #388e3c; /* Dark green button background */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: #2c6b3f; /* Darker green on hover */
+            }
+
+        .message {
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        .product {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ABC Retail</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/About">About Us</a>
+        <a href="/Contact">Contact Us</a>
+        <a href="/Orders">Orders</a>
+        <a href="/Search">Display</a>
+        <a href="/Products">Products</a>
+    </nav>
+    <div class="container">
+        @RenderBody()
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

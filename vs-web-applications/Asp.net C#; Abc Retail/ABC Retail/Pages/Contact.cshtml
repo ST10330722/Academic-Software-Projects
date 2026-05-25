@@ -1,0 +1,25 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div>
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, please reach out to us using the contact form below:</p>
+    <form method="post" asp-page-handler="SubmitContact">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</div>

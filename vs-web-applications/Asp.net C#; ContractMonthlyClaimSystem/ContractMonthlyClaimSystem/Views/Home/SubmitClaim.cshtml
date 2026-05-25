@@ -1,0 +1,60 @@
+﻿@model Claim
+
+<h2>Submit Claim</h2>
+
+<form asp-action="SubmitClaim" method="post" enctype="multipart/form-data" class="form" id="submitClaimForm">
+    <div class="mb-3">
+        <label for="LecturerName" class="form-label">Lecturer Name</label>
+        <input type="text" id="LecturerName" asp-for="LecturerName" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="HourlyRate" class="form-label">Hourly Rate</label>
+        <input type="number" id="HourlyRate" asp-for="HourlyRate" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="HoursWorked" class="form-label">Hours Worked</label>
+        <input type="number" id="HoursWorked" asp-for="HoursWorked" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="Document" class="form-label">Upload Document</label>
+        <input type="file" id="Document" name="Document" class="form-control" accept=".pdf,.docx,.jpg,.png" />
+    </div>
+    <div class="mb-3">
+        <input type="hidden" id="TotalAmount" asp-for="TotalAmount" />
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Submit Claim</button>
+    </div>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // When the form is submitted
+        $('#submitClaimForm').submit(function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get the values for Hourly Rate and Hours Worked
+            var hourlyRate = $('#HourlyRate').val();
+            var hoursWorked = $('#HoursWorked').val();
+
+            // Validate the input values
+            if (hourlyRate <= 0 || hoursWorked <= 0) {
+                alert("Please enter valid values for Hourly Rate and Hours Worked.");
+                return;
+            }
+
+            // Calculate the total amount
+            var totalAmount = hourlyRate * hoursWorked;
+
+            // Display an alert showing the total amount
+            alert('Total Payment: ' + totalAmount);
+
+            // Set the hidden input field value to the calculated total amount
+            $('#TotalAmount').val(totalAmount);
+
+            // Now submit the form after setting the TotalAmount
+            this.submit(); // Proceed with form submission
+        });
+    });
+</script>

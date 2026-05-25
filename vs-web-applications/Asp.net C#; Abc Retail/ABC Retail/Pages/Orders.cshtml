@@ -1,0 +1,93 @@
+﻿@page
+@model ABC_Retail.Pages.OrdersModel
+@{
+
+}
+<section>
+    <h3>Customer Profile & Product Information</h3>
+    <form method="post" asp-page-handler="SubmitProfile" onsubmit="return validateProfileForm()">
+        <div class="form-group">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" name="customerName" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div id="profileMessage" class="message"></div>
+    </form>
+</section>
+
+<section>
+    <h3>Upload Images</h3>
+    <form method="post" enctype="multipart/form-data" asp-page-handler="UploadImage" onsubmit="return validateImageUpload()">
+        <div class="form-group">
+            <input type="file" id="imageFile" name="imageFile" class="form-control-file" accept="image/*" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+        <div id="imageMessage" class="message"></div>
+    </form>
+</section>
+
+<section>
+    <h3>Process Orders</h3>
+    <form method="post" asp-page-handler="ProcessOrder" onsubmit="return validateOrderForm()">
+        <div class="form-group">
+            <label for="orderDetails">Order Details:</label>
+            <textarea id="orderDetails" name="orderDetails" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Process Order</button>
+        <div id="orderMessage" class="message"></div>
+    </form>
+</section>
+
+<section>
+    <h3>Upload Contract & Log Files </h3>
+    <form method="post" enctype="multipart/form-data" asp-page-handler="UploadContract" onsubmit="return validateContractUpload()">
+        <div class="form-group">
+            <input type="file" id="contractFile" name="contractFile" class="form-control-file" accept=".pdf,.docx" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+        <div id="contractMessage" class="message"></div>
+    </form>
+</section>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Handle form submissions via AJAX
+            $('form').submit(function (e) {
+                e.preventDefault(); // Prevent default form submission
+
+                var form = $(this);
+                var formId = form.attr('id');
+                var handler = form.attr('asp-page-handler');
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: form.attr('action') || window.location.pathname,
+                    type: 'POST',
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        if (response.success) {
+                            // Show success popup
+                            alert(response.message);
+                        } else {
+                            // Show error popup
+                            alert(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error:', error);
+                        alert('An unexpected error occurred. Please try again.');
+                    }
+                });
+            });
+        });
+    </script>
+}

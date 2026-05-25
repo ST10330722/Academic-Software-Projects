@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ContractMonthlyClaimSystem.Models.Claim>
+
+<h2>Approved Claims Invoice</h2>
+
+@if (!Model.Any())
+{
+    <p>No approved claims found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lecturer</th>
+                <th>Hours Worked</th>
+                <th>Hourly Rate</th>
+                <th>Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.LecturerName</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.HourlyRate</td>
+                    <td>@claim.TotalAmount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

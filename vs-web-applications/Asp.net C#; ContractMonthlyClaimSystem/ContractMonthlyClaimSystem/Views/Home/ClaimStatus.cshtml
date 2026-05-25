@@ -1,0 +1,16 @@
+﻿@model Claim
+
+<h2>Claim Status</h2>
+<div class="card">
+    <div class="card-body">
+        <p><strong>Lecturer:</strong> @Model.LecturerName</p>
+        <p><strong>Hours Worked:</strong> @Model.HoursWorked</p>
+        <p><strong>Hourly Rate:</strong> @Model.HourlyRate</p>
+        <p><strong>Total Amount:</strong> @Model.TotalAmount</p>
+        <p><strong>Status:</strong> @Model.Status</p>
+        @if (!string.IsNullOrEmpty(@Model.DocumentPath))
+        {
+            <p><strong>Uploaded Document:</strong> <a href="@Model.DocumentPath" target="_blank">View File</a></p>
+        }
+    </div>
+</div>

@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\orders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\orders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\references for the images and work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:references for the images and work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\products.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\abc retail.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:abc retail.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|c:\\users\\user\\documents\\github\\academic-software-projects\\web-applications\\bca2-cldv6212-part-2-st10330722\\abc retail\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55E0FD23-B360-46EA-AE30-75CF318CF901}|ABC Retail.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Search.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Search.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Search.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Search.cshtml.cs",
+              "RelativeToolTip": "Pages\\Search.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:57.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Search.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Search.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Search.cshtml",
+              "RelativeToolTip": "Pages\\Search.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAowFUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:57.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "References for the images and work.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\References for the images and work.cs",
+              "RelativeDocumentMoniker": "References for the images and work.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\References for the images and work.cs",
+              "RelativeToolTip": "References for the images and work.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:57.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-24T13:04:57.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:57.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-24T13:04:57.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Orders.cshtml",
+              "RelativeToolTip": "Pages\\Orders.cshtml",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:57.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Orders.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Orders.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Orders.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Orders.cshtml.cs",
+              "RelativeToolTip": "Pages\\Orders.cshtml.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwGwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:57.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ABC Retail.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\ABC Retail.csproj",
+              "RelativeDocumentMoniker": "ABC Retail.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\ABC Retail.csproj",
+              "RelativeToolTip": "ABC Retail.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-24T13:04:58.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:58.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Products.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Products.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Products.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Products.cshtml.cs",
+              "RelativeToolTip": "Pages\\Products.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:58.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-24T13:04:58.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswCIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:04:58.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Products.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Products.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Products.cshtml",
+              "RelativeToolTip": "Pages\\Products.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\About.cshtml",
+              "RelativeDocumentMoniker": "Pages\\About.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\About.cshtml",
+              "RelativeToolTip": "Pages\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\Academic-Software-Projects\\web-applications\\bca2-cldv6212-part-2-ST10330722\\ABC Retail\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAuwIMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-24T13:04:58.109Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

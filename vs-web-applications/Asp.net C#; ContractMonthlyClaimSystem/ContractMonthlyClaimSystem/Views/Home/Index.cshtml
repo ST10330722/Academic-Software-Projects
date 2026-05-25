@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Contract Monthly Claim System</h1>
+    <p class="lead">This system allows you to easily manage and track your claims as a lecturer. Whether you're submitting a new claim, checking the status of an existing one, or generating an invoice, everything you need is right here.</p>
+    <p>Use the links below to navigate:</p>
+
+    <!-- Links to other pages -->
+    <div class="mb-3">
+        <a class="btn btn-primary btn-lg" href="@Url.Action("SubmitClaim", "Home")">Submit a New Claim</a>
+    </div>
+
+    <div class="mb-3">
+        <a class="btn btn-info btn-lg" href="@Url.Action("ClaimStatus", "Home")">Check Claim Status</a>
+    </div>
+
+    <div class="mb-3">
+        <a class="btn btn-success btn-lg" href="@Url.Action("GenerateInvoice", "Home")">Generate Approved Claims Invoice</a>
+    </div>
+
+    <hr>
+
+    <p>Learn more about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a> and enhance your skills!</p>
+</div>
+
+<!-- Optional Footer -->
+<footer class="text-center mt-5">
+    <p>&copy; 2024 Contract Monthly Claim System</p>
+</footer>
