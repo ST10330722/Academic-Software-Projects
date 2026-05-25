@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">HarvestLink</string>
+
+    <!-- Titles -->
+    <string name="farmer_home_title">Ikhaya lomlimi</string>
+    <string name="buyer_home_title">Ikhaya lomthengi</string>
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="add_produce_title">Nezela umkhiqizo</string>
+    <string name="produce_details_title">Imininingwane yomkhiqizo</string>
+    <string name="farmer_orders_title">Ama-oda omlimi</string>
+    <string name="buyer_orders_title">Ama-oda ami</string>
+    <string name="past_orders_title">Ama-oda adlulile</string>
+
+    <!-- Menu / common -->
+    <string name="my_orders">Ama-oda ami</string>
+    <string name="menu_orders">Ama-oda</string>
+    <string name="menu_settings">Izilungiselelo</string>
+    <string name="menu_past_orders">Ama-oda adlulile</string>
+
+    <!-- Settings -->
+    <string name="enable_biometrics">Vumela ukungena nge-biometrics</string>
+    <string name="logout">Phuma</string>
+    <string name="logged_out">Uphumile</string>
+    <string name="language">Ulimi</string>
+    <string name="language_english">IsiNgisi</string>
+    <string name="language_afrikaans">i-Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="language_changed">Ulimi selushintshiwe</string>
+    <string name="enable_notifications">Vumela izaziso</string>
+
+    <!-- Farmer -->
+    <string name="sync_requested">Ukulinganisa (sync) kuceliwe</string>
+    <string name="error_fetching_produce">Iphutha ekulayisheni umkhiqizo: %1$s</string>
+
+    <!-- Buyer -->
+    <string name="error_loading_produce">Iphutha ekulayisheni imikhiqizo: %1$s</string>
+
+    <!-- Add/Edit produce -->
+    <string name="produce_photo_desc">Isithombe somkhiqizo</string>
+    <string name="add_photo">Nezela isithombe</string>
+    <string name="hint_name">Igama</string>
+    <string name="hint_grade">Ibanga</string>
+    <string name="hint_quantity">Inani</string>
+    <string name="hint_unit">Iyunithi (isb. kg, ikhrethi)</string>
+    <string name="hint_price_per_unit">Intengo ngeyunithi</string>
+    <string name="hint_harvest_date">Usuku lokuvuna (YYYY-MM-DD)</string>
+    <string name="hint_variety">Uhlobo</string>
+    <string name="hint_location">Indawo</string>
+    <string name="save">Londoloza</string>
+    <string name="error_fill_all_fields">Gcwalisa zonke izinkambu kahle</string>
+    <string name="saved_and_synced">Kugcinwe futhi kwalinganiswa (sync)</string>
+    <string name="saved_offline_will_sync">Kugcinwe ngaphandle kwe-inthanethi, kuzolinganiswa (sync) kamuva (isithombe singase singabi khona)</string>
+    <string name="saved_offline_edit">Ukulungisa kugcinwe ngaphandle kwe-inthanethi</string>
+    <string name="updated_and_synced">Kubuyekezwe kwalinganiswa (sync)</string>
+    <string name="edit_produce_title">Hlela umkhiqizo</string>
+
+    <string name="delete_produce_title">Susa umkhiqizo</string>
+    <string name="delete_produce_message">Ufuna ukususa lo mkhiqizo?</string>
+    <string name="delete">Susa</string>
+
+    <!-- Buyer details -->
+    <string name="quantity_with_unit">%1$s %2$s</string>
+    <string name="price_per_unit">R%1$s nge-%2$s</string>
+    <string name="harvest_date_label">Kuvunwe: %1$s</string>
+    <string name="hint_order_quantity">Inani</string>
+    <string name="hint_note_optional">Inothi (okuzikhethela)</string>
+    <string name="place_order">Faka i-oda</string>
+    <string name="error_missing_product_info">Ulwazi lomkhiqizo luyashoda</string>
+    <string name="error_enter_valid_quantity">Faka inani elisebenzayo</string>
+    <string name="order_placed">I-oda lifakiwe</string>
+    <string name="error_generic">Iphutha: %1$s</string>
+
+    <!-- Role select -->
+    <string name="choose_role">Khetha indima yakho</string>
+    <string name="role_farmer">Umlimi</string>
+    <string name="role_buyer">Umthengi</string>
+
+    <!-- Farmer home -->
+    <string name="no_produce_yet">Akukabi bikho mikhiqizo okwamanje</string>
+    <string name="sync">Linganisisa (sync)</string>
+    <string name="add_produce_button">Nezela umkhiqizo</string>
+
+    <!-- Buyer home -->
+    <string name="my_orders_button">Ama-oda ami</string>
+    <string name="no_listings">Azikho izikhangiso</string>
+
+    <!-- Orders screens -->
+    <string name="no_orders_yet">Akukabi bikho ma-oda</string>
+
+    <!-- Login -->
+    <string name="login_title">HarvestLink</string>
+    <string name="sign_in_with_google">Ngena nge-Google</string>
+
+    <!-- Orders item -->
+    <string name="change_status">Shintsha isimo</string>
+
+    <!-- Filters -->
+    <string name="filters_title">Izihlungi</string>
+    <string name="filter_name_hint">Uhlobo lomkhiqizo (isb. Utamatisi)</string>
+    <string name="filter_min_price_hint">Intengo encane</string>
+    <string name="filter_max_price_hint">Intengo ephezulu</string>
+    <string name="apply_filters">Sebenzisa</string>
+    <string name="clear_filters">Sula</string>
+    <string name="filter_grade_all">Wonke amazinga</string>
+
+    <string name="status_updated">Isimo sibuyekeziwe</string>
+    <string name="status_update_failed">Kwehlulekile: %1$s</string>
+
+    <string name="theme">Itimu</string>
+    <string name="dark_mode">Imodi emnyama</string>
+
+
+    <!-- Grades array -->
+    <string-array name="grades_array">
+        <item>@string/filter_grade_all</item>
+        <item>Ibanga A</item>
+        <item>Ibanga B</item>
+        <item>Ibanga C</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="hl_primary">#014F4F</color>
+    <color name="hl_primary_dark">#003737</color>
+    <color name="hl_on_primary">@android:color/white</color>
+
+</resources>

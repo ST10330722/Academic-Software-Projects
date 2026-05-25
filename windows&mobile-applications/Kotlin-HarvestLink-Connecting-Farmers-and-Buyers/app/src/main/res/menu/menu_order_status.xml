@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/status_accept"
+        android:title="Accept" />
+    <item
+        android:id="@+id/status_fulfil"
+        android:title="Fulfil" />
+    <item
+        android:id="@+id/status_cancel"
+        android:title="Cancel" />
+</menu>

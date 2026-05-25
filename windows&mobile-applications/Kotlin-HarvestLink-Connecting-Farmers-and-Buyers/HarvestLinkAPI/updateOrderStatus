@@ -1,0 +1,58 @@
+
+exports.updateOrderStatus = async (req, res) => {
+  try {
+    const id = req.params.id;
+    const { status } = req.body;
+
+   
+    await collection.doc(id).update({ status });
+
+   
+    const orderSnap = await collection.doc(id).get();
+    if (!orderSnap.exists) {
+      console.warn(`Order ${id} not found after update`);
+      return res.json({ id, status }); 
+    }
+
+    const order = orderSnap.data();
+    const buyerUid = order.buyerUid;
+    const produceDocId = order.produceDocId;
+
+    
+    let produceName = "your order";
+    if (produceDocId) {
+      try {
+        const produceSnap = await db.collection("produce").doc(produceDocId).get();
+        if (produceSnap.exists) {
+          const produce = produceSnap.data();
+          if (produce.name) produceName = produce.name;
+        }
+      } catch (err) {
+        console.warn("Could not fetch produce for status notification:", err);
+      }
+    }
+
+   
+    const prettyStatus = status.charAt(0).toUpperCase() + status.slice(1);
+
+   
+    if (buyerUid) {
+      const title = "Order status updated";
+      const body = `Your order for ${produceName} is now ${prettyStatus}`;
+
+      await sendNotificationToUser(buyerUid, { title, body }, {
+        type: "STATUS_UPDATE",
+        role: "buyer",
+        orderId: id,
+        status,
+      });
+    }
+
+    
+    res.json({ id, status });
+
+  } catch (e) {
+    console.error("updateOrderStatus error:", e);
+    res.status(500).json({ error: e.message });
+  }
+};

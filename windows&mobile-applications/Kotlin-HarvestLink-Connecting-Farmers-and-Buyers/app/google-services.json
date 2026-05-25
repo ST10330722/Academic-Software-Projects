@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "4541104637",
+    "project_id": "harvestlinkapp",
+    "storage_bucket": "harvestlinkapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4541104637:android:b5aab5ee2812b5c5b8d994",
+        "android_client_info": {
+          "package_name": "com.example.harvestlinkapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4541104637-dc7sc1sggg07guj9c0mfd2o35bjbikv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harvestlinkapp",
+            "certificate_hash": "9e03c21120221a3287dd5d5b84d65fa4d990f6ee"
+          }
+        },
+        {
+          "client_id": "4541104637-po0kin965e455a3m9o0l9vppdfmal87r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxgjGew0w2pnOu0OZ3OFaSIPv0-gtVXHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4541104637-po0kin965e455a3m9o0l9vppdfmal87r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

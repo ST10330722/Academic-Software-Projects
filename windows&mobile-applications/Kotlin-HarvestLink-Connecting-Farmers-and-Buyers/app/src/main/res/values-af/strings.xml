@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">HarvestLink</string>
+
+    <!-- Titles -->
+    <string name="farmer_home_title">Boer-tuisblad</string>
+    <string name="buyer_home_title">Koper-tuisblad</string>
+    <string name="settings_title">Instellings</string>
+    <string name="add_produce_title">Voeg produkte by</string>
+    <string name="produce_details_title">Produkbesonderhede</string>
+    <string name="farmer_orders_title">Boer se bestellings</string>
+    <string name="buyer_orders_title">My bestellings</string>
+    <string name="past_orders_title">Vorige bestellings</string>
+
+    <!-- Menu / common -->
+    <string name="my_orders">My bestellings</string>
+    <string name="menu_orders">Bestellings</string>
+    <string name="menu_settings">Instellings</string>
+    <string name="menu_past_orders">Vorige bestellings</string>
+
+    <!-- Settings -->
+    <string name="enable_biometrics">Aktiveer biometriese aanmelding</string>
+    <string name="logout">Teken uit</string>
+    <string name="logged_out">Uitgeteken</string>
+    <string name="language">Taal</string>
+    <string name="language_english">Engels</string>
+    <string name="language_afrikaans">Afrikaans</string>
+    <string name="language_zulu">isiZulu</string>
+    <string name="language_changed">Taal is verander</string>
+    <string name="enable_notifications">Skakel kennisgewings aan</string>
+
+    <!-- Farmer -->
+    <string name="sync_requested">Sinkronisering versoek</string>
+    <string name="error_fetching_produce">Fout met haal van produkte: %1$s</string>
+
+    <!-- Buyer -->
+    <string name="error_loading_produce">Fout met laai van produkte: %1$s</string>
+
+    <!-- Add/Edit produce -->
+    <string name="produce_photo_desc">Produkfoto</string>
+    <string name="add_photo">Voeg foto by</string>
+    <string name="hint_name">Naam</string>
+    <string name="hint_grade">Graad</string>
+    <string name="hint_quantity">Hoeveelheid</string>
+    <string name="hint_unit">Eenheid (bv. kg, krat)</string>
+    <string name="hint_price_per_unit">Prys per eenheid</string>
+    <string name="hint_harvest_date">Oesdatum (JJJJ-MM-DD)</string>
+    <string name="hint_variety">Variëteit</string>
+    <string name="hint_location">Ligging</string>
+    <string name="save">Stoor</string>
+    <string name="error_fill_all_fields">Vul alle velde korrek in</string>
+    <string name="saved_and_synced">Gestoorde en gesinkroniseer</string>
+    <string name="saved_offline_will_sync">Vanlyn gestoor, sal later sinkroniseer (foto mag nie ingesluit wees nie)</string>
+    <string name="saved_offline_edit">Vanlyn wysiging gestoor</string>
+    <string name="updated_and_synced">Bygewerk en gesinkroniseer</string>
+    <string name="edit_produce_title">Wysig produk</string>
+
+    <string name="delete_produce_title">Skrap produk</string>
+    <string name="delete_produce_message">Wil jy hierdie produk uitvee?</string>
+    <string name="delete">Skrap</string>
+
+    <!-- Buyer details -->
+    <string name="quantity_with_unit">%1$s %2$s</string>
+    <string name="price_per_unit">R%1$s per %2$s</string>
+    <string name="harvest_date_label">Geoes: %1$s</string>
+    <string name="hint_order_quantity">Hoeveelheid</string>
+    <string name="hint_note_optional">Nota (opsioneel)</string>
+    <string name="place_order">Plaas bestelling</string>
+    <string name="error_missing_product_info">Produk-inligting ontbreek</string>
+    <string name="error_enter_valid_quantity">Voer \'n geldige hoeveelheid in</string>
+    <string name="order_placed">Bestelling geplaas</string>
+    <string name="error_generic">Fout: %1$s</string>
+
+    <!-- Role select -->
+    <string name="choose_role">Kies jou rol</string>
+    <string name="role_farmer">Boer</string>
+    <string name="role_buyer">Koper</string>
+
+    <!-- Farmer home -->
+    <string name="no_produce_yet">Nog geen produkte nie</string>
+    <string name="sync">Sinkroniseer</string>
+    <string name="add_produce_button">Voeg produk by</string>
+
+    <!-- Buyer home -->
+    <string name="my_orders_button">My bestellings</string>
+    <string name="no_listings">Geen lysings nie</string>
+
+    <!-- Orders screens -->
+    <string name="no_orders_yet">Nog geen bestellings nie</string>
+
+    <!-- Login -->
+    <string name="login_title">HarvestLink</string>
+    <string name="sign_in_with_google">Meld aan met Google</string>
+
+    <!-- Orders item -->
+    <string name="change_status">Verander status</string>
+
+    <!-- Filters -->
+    <string name="filters_title">Filters</string>
+    <string name="filter_name_hint">Produksoort (bv. Tamaties)</string>
+    <string name="filter_min_price_hint">Min prys</string>
+    <string name="filter_max_price_hint">Maks prys</string>
+    <string name="apply_filters">Pas toe</string>
+    <string name="clear_filters">Maak skoon</string>
+    <string name="filter_grade_all">Alle grade</string>
+
+    <string name="status_updated">Status bygewerk</string>
+    <string name="status_update_failed">Misluk: %1$s</string>
+
+
+    <string name="theme">Tema</string>
+    <string name="dark_mode">Donker modus</string>
+
+
+    <!-- Grades array -->
+    <string-array name="grades_array">
+        <item>@string/filter_grade_all</item>
+        <item>Graad A</item>
+        <item>Graad B</item>
+        <item>Graad C</item>
+    </string-array>
+</resources>
